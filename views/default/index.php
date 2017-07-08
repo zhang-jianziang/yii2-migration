@@ -10,7 +10,8 @@ use migration\models\MigrationUtility;
 /** @var $tables array */
 /** @var ActiveForm $form */
 MigrationAsset::register($this);
-$this->title = Yii::t('backend', '迁移');
+//$this->title = Yii::t('backend', '迁移');
+$this->title = '迁移';
 ?>
 <?php $form = ActiveForm::begin(['id' => 'form-submit']); ?>
 <div class="box box-primary">
